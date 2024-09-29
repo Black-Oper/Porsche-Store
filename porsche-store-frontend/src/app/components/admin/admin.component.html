@@ -1,0 +1,91 @@
+<div class="body">
+    <div class="container">
+      <div class="pedido-box">
+        <div class="input-box">
+          <label>Search:</label>
+          <input type="text" placeholder="Which record are you searching for?" (input)="search($event)">
+        </div>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Email</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let pedido of pedidos">
+            <td>{{ pedido.nome }}</td>
+            <td>{{ pedido.sobrenome }}</td>
+            <td>{{ pedido.email }}</td>
+            <td>
+              <button (click)="showEdit(pedido)">Editar</button>
+            </td>
+            <td>
+              <button (click)="showDetails(pedido)">Detalhes</button>
+            </td>
+            <td>
+              <button (click)="remove(pedido.id!)">Excluir</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="campo">
+      <div class="descricao" *ngIf="detalhesPedido">
+        <div class="detalhes">
+          <h2>Detalhes</h2>
+          <div class="detalhes-box">
+            <label>Modelo do Carro:</label>
+            <span>{{ modeloCarro }}</span>
+          </div>
+          <div class="detalhes-box">
+            <label>Status:</label>
+            <span>{{ status }}</span>
+          </div>
+          <div class="detalhes-box">
+            <label>Data de Criação:</label>
+            <span>{{ dataDeCriacao }}</span>
+          </div>
+          <div class="detalhes-box">
+            <label>Data de Alteração:</label>
+            <span>{{ dataDeAlteracao }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="editar" *ngIf="editarPedido">
+        <h2>Edit</h2>
+        <form (ngSubmit)="updatePedido()">
+          <div>
+            <label>Nome:</label>
+            <input type="text" [(ngModel)]="nome" name="nome" required>
+          </div>
+          <div>
+            <label>Sobrenome:</label>
+            <input type="text" [(ngModel)]="sobrenome" name="sobrenome" required>
+          </div>
+          <div>
+            <label>Email:</label>
+            <input type="email" [(ngModel)]="email" name="email" required>
+          </div>
+          <div>
+            <label>Modelo do Carro:</label>
+            <input type="text" [(ngModel)]="modeloCarro" name="modeloCarro" required>
+          </div>
+          <div>
+            <label>Status:</label>
+            <select [(ngModel)]="status" name="status" required>
+              <option value="Ativo">Ativo</option>
+              <option value="Inativo">Inativo</option>
+            </select>
+          </div>
+          <button type="submit">Salvar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

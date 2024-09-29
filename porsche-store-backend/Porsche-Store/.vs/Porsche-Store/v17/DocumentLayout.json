@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|d:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\porsche-store\\porsche-store\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|solutionrelative:porsche-store\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|d:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\porsche-store\\porsche-store\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|solutionrelative:porsche-store\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\porsche-store\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|solutionrelative:porsche-store\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|d:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\porsche-store\\porsche-store\\porsche-store.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|solutionrelative:porsche-store\\porsche-store.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\porsche-store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|solutionrelative:porsche-store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|d:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\porsche-store\\porsche-store\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|solutionrelative:porsche-store\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\porsche-store\\services\\ipedidosinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|solutionrelative:porsche-store\\services\\ipedidosinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\porsche-store\\enum\\modelocarroenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9627FB5A-A77B-4A7F-8162-F6368B6BBE83}|Porsche-Store\\Porsche-Store.csproj|solutionrelative:porsche-store\\enum\\modelocarroenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Porsche-Store.http",
+              "DocumentMoniker": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Porsche-Store.http",
+              "RelativeDocumentMoniker": "Porsche-Store\\Porsche-Store.http",
+              "ToolTip": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Porsche-Store.http",
+              "RelativeToolTip": "Porsche-Store\\Porsche-Store.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-29T23:31:32.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Porsche-Store\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Porsche-Store\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T23:31:24.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\DataContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Porsche-Store\\DataContext\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\DataContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Porsche-Store\\DataContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:31:19.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPedidosInterface.cs",
+              "DocumentMoniker": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Services\\IPedidosInterface.cs",
+              "RelativeDocumentMoniker": "Porsche-Store\\Services\\IPedidosInterface.cs",
+              "ToolTip": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Services\\IPedidosInterface.cs",
+              "RelativeToolTip": "Porsche-Store\\Services\\IPedidosInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T21:43:01.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Program.cs",
+              "RelativeDocumentMoniker": "Porsche-Store\\Program.cs",
+              "ToolTip": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Program.cs",
+              "RelativeToolTip": "Porsche-Store\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:38:18.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModeloCarroEnum.cs",
+              "DocumentMoniker": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Enum\\ModeloCarroEnum.cs",
+              "RelativeDocumentMoniker": "Porsche-Store\\Enum\\ModeloCarroEnum.cs",
+              "ToolTip": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Enum\\ModeloCarroEnum.cs",
+              "RelativeToolTip": "Porsche-Store\\Enum\\ModeloCarroEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T19:33:01.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Services\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Porsche-Store\\Services\\PedidoService.cs",
+              "ToolTip": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Services\\PedidoService.cs",
+              "RelativeToolTip": "Porsche-Store\\Services\\PedidoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T19:31:41.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "Porsche-Store\\Controllers\\PedidoController.cs",
+              "ToolTip": "D:\\docs\\curso-angular-!\\projeto-pessoal\\porsche-store\\porsche-store-backend\\Porsche-Store\\Porsche-Store\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "Porsche-Store\\Controllers\\PedidoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T19:08:41.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

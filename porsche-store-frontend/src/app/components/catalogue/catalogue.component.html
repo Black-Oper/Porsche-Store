@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="titulo">
+        <h2>Select a model</h2>
+    </div>
+    <div class="catalogue">
+        <div class="catalogue__cards">
+            <app-card-catalogue [cardTitle]="'718'" [cardText]="'The mid-engine sports car to enjoy as a couple'"
+                [cardType]="'Gasoline'" [cardImage]="'/assets/718-side.webp'"
+                [cardPrice]="'Starting at R$ 535,000.00.'" routerLink="/718"></app-card-catalogue>
+            <app-card-catalogue [cardTitle]="'911'" [cardText]="'The timeless iconic rear-engine sports car'"
+                [cardType]="'Gasoline'" [cardImage]="'/assets/911-side.webp'"
+                [cardPrice]="'Starting at R$ 835,000.00.'" routerLink="/911"></app-card-catalogue>
+        </div>
+        <div class="catalogue__cards">
+            <app-card-catalogue [cardTitle]="'Taycan'" [cardText]="'The pure expression of an electric sports car'"
+                [cardType]="'Eletric'" [cardImage]="'/assets/taycan-side.webp'"
+                [cardPrice]="'Starting at R$ 660,000.00.'" routerLink="/taycan"></app-card-catalogue>
+            <app-card-catalogue [cardTitle]="'Panamera'" [cardText]="'The sports car for everyday use'"
+                [cardType]="'Hybrid'" [cardImage]="'/assets/panamera-side.webp'"
+                [cardPrice]="'Starting at R$ 689,000.00.'" routerLink="/panamera"></app-card-catalogue>
+        </div>
+        <div class="catalogue__cards">
+            <app-card-catalogue [cardTitle]="'Macan'" [cardText]="'The sports car among compact SUVs'"
+                [cardType]="'Eletric'" [cardImage]="'/assets/macan-side.webp'"
+                [cardPrice]="'Starting at R$ 490,000.00.'" routerLink="/macan"></app-card-catalogue>
+            <app-card-catalogue [cardTitle]="'Cayenne'" [cardText]="'The impressive 5-seater sports SUV'"
+                [cardType]="'Hybrid'" [cardImage]="'/assets/cayenne-side.webp'"
+                [cardPrice]="'Starting at R$ 770,000.00.'" routerLink="/cayenne"></app-card-catalogue>
+        </div>
+    </div>
+</div>

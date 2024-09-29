@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home{
+    width: 100%;
+    height: 550vh;
+
+    &__photo{
+        width: 100%;
+        height: 90vh;
+        background-image: url('/assets/1-Porsche-Taycan-review-2024.jpg');
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 3px 5px rgba(33, 33, 33, 0.4);
+
+        h2{
+            font-family: 'Exo 2', sans-serif;
+            font-size: 3rem;
+            color: white;
+            text-align: justify;
+            padding-top: 10vh;
+            padding-left: 20px;
+        }
+
+        button{
+            font-family: 'Exo 2', sans-serif;
+            font-size: 1.5rem;
+            color: white;
+            background-color: transparent;
+            border-color: white;
+            border: 1px solid white;
+            border-radius: 12px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+            transition: 0.5s ease;
+
+            &:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+
+    &__models{
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        margin-top: -50px;
+
+        h2{
+            font-family: 'Exo 2', sans-serif;
+            font-size: 3rem;
+            color: black;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .images{
+            display: flex;
+            margin-top: 40px;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            margin-left: -19px;
+        }
+    }
+
+    &__cup{
+        width: 100%;
+        height: 150vh;
+        background-color: #171717;
+        box-shadow: 0 3px 5px rgba(33, 33, 33, 0.4);
+        display: flex;
+        flex-direction: column;
+        margin-top: 900px;
+
+        h2{
+            font-family: 'Exo 2', sans-serif;
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+            padding-top: 10vh;
+        }
+
+        .about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+
+            p{
+                font-family: 'Exo 2', sans-serif;
+                font-size: 1.5rem;
+                color: white;
+                text-align: justify;
+                width: 50%;
+            }
+        }
+    }
+}

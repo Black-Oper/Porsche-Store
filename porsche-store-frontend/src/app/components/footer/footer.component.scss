@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer{
+    background-color: #333;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    height: 36vh;
+
+    p{
+        margin-top: 20px;
+    }
+
+    img{
+        width: 200px;
+        height: 30px;
+        margin-top: 50px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1); // Isso adicionará uma linha de 1px acima da imagem
+    }
+}

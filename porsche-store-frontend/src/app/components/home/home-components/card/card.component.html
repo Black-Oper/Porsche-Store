@@ -1,0 +1,11 @@
+<div class="card"
+    [ngStyle]="
+        { 'background-image': 'url(' + cardImage + ')'
+        }"
+>
+    <h2>{{ cardTitle }}</h2>
+    <div class="card__text">
+        <p>{{ cardDescription }}</p>
+        <button routerLink="/{{ link }}">Buy the {{ cardTitle }}</button>
+    </div>
+</div>

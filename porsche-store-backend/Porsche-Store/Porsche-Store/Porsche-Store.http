@@ -1,0 +1,6 @@
+@Porsche_Store_HostAddress = http://localhost:5135
+
+GET {{Porsche_Store_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

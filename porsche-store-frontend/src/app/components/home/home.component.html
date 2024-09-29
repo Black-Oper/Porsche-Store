@@ -1,0 +1,29 @@
+<div class="home">
+    <div class="home__photo">
+        <h2>Feel the real Porsche<br>inside you.</h2>
+        <button routerLink="/catalogue">Discover</button>
+    </div>
+    <div class="home__models">
+        <h2>Models</h2>
+        <div class="images">
+            <app-card [cardTitle]="'718'" [cardDescription]="'Two seats with high driving dynamics thanks to its central engine'" [cardImage]="'/assets/718.png'" [link]="'718'"></app-card>
+            <app-card [cardTitle]="'911'" [cardDescription]="'Iconic sports car with rear-mounted engine and superior performance'" [cardImage]="'/assets/911.png'" [link]="'911'"></app-card>
+        </div>
+        <div class="images">
+            <app-card [cardTitle]="'Taycan'" [cardDescription]="'All-electric sports sedan with front and rear trunk'" [cardImage]="'/assets/taycan.png'" [link]="'taycan'"></app-card>
+            <app-card [cardTitle]="'Panamera'" [cardDescription]="'Four-seat luxury sports sedan'" [cardImage]="'/assets/panamera.png'" [link]="'panamera'"></app-card>
+        </div>
+        <div class="images">
+            <app-card [cardTitle]="'Macan'" [cardDescription]="'Compact SUV with high versatility'" [cardImage]="'/assets/macan.png'" [link]="'macan'"></app-card>
+            <app-card [cardTitle]="'Cayenne'" [cardDescription]="'SUV with up to 5 seats, but first and foremost a sports car'" [cardImage]="'/assets/cayenne.png'" [link]="'cayenne'"></app-card>
+        </div>
+    </div>
+    <div class="home__cup">
+        <h2>Porsche CUP</h2>
+        <app-gallery></app-gallery>
+        <h2>About:</h2>
+        <div class="about">
+            <p>The Porsche Carrera Cup is a single-make racing series of the Porsche Premier Series competed with, initially the Porsche 911 Carrera Cup, then the Porsche 911 GT3 Cup. The cars are built specifically by Porsche for single-make racing, with each vehicle identical to those of your generation.</p>
+        </div>
+    </div>
+</div>

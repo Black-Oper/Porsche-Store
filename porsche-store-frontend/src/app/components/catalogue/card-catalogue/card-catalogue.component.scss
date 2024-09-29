@@ -1,0 +1,69 @@
+.card {
+    height: 60vh;
+    width: 680px;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px rgba(33, 33, 33, 0.4);
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+
+    // quando passar o mouse por cima do card, a sombra fica vermelha
+    &:hover {
+        box-shadow: 0 3px 5px rgba(255, 0, 0, 0.7);
+    }
+
+    h2 {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 2rem;
+        color: rgb(255, 0, 0);
+        padding-top: 2vh;
+        display: flex;
+        justify-content: center;
+        font-style: italic;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+
+    .text{
+        display: flex;
+        justify-content: center;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 12pt;
+        color: black;
+        padding-top: 2vh;
+    }
+
+    .type{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Exo 2', sans-serif;
+        margin-top: 2vh;
+        font-size: 12pt;
+        color: black;
+        margin-bottom: -50px;
+        width: 12%;
+        height: 7%;
+        border-radius: 7px;
+        margin-left: 298px;
+        background-color: rgba(108, 108, 108, 0.4);
+    }
+
+    &__price{
+        font-family: 'Exo 2', sans-serif;
+        font-size: 12pt;
+        color: black;
+        // o texto de price ficar embaixo da imagem
+        margin-top: -125px;
+        display: flex;
+        justify-content: center;
+
+    }
+}

@@ -1,0 +1,128 @@
+.page{
+    height: 105vh;
+    width: 100%;
+
+    &__titulo{
+        width: 100%;
+        border-bottom: 1px solid #383838;
+
+        h2{
+            font-family: 'Exo 2', sans-serif;
+            font-size: 2rem;
+            color: black;
+            margin-left: 50px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__content{
+        display: flex;
+        margin-bottom: 20px;
+        height: 92.5%;
+
+        &__galeria{
+            margin-top: 5px;
+            height: 100%;
+            width: 52,5%;
+            margin-left: 70px;
+            margin-bottom: 50px;
+
+            img{
+                height: 470px;
+                width: 800px;
+                border-radius: 7px;
+                border: 1px solid black;
+            }
+
+            p{
+                font-family: 'Exo 2', sans-serif;
+                font-size: 1.2rem;
+                color: black;
+                margin-top: 20px;
+                width: 800px;
+                background-color: rgb(144, 144, 144);
+                padding: 20px;
+                border-radius: 7px;
+            }
+
+            &__selecionar{
+                display: flex;
+                margin-top: 10px;
+                margin-left: -15px;
+
+                button{
+                    cursor: pointer;
+                    height: 150px;
+                    width: 250px;
+                    border-radius: 7px;
+                    margin-left: 20px;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        &__menu{
+            width: 40%;
+            margin-left: 45px;
+            background-color: rgb(18, 18, 18);
+            height: 100%;
+
+            h3{
+                font-family: 'Exo 2', sans-serif;
+                font-size: 1.5rem;
+                color: white;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+
+            form{
+                margin-top: 20px;
+                margin-left: 20px;
+                font-family: 'Exo 2', sans-serif;
+                font-size: 1rem;
+                color: white;
+                
+                .form-group{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 40px;
+
+                    label{
+                        margin-bottom: 5px;
+                    }
+
+                    input{
+                        width: 560px;
+                        height: 40px;
+                        border-radius: 7px;
+                        margin-bottom: 10px;
+                        padding-left: 10px;
+                    }
+                }
+
+                button{
+                    cursor: pointer;
+                    width: 300px;
+                    height: 40px;
+                    border-radius: 7px;
+                    background-color: rgb(222, 222, 222);
+                    color: rgb(0, 0, 0);
+                    font-size: 1.2rem;
+                    font-family: 'Exo 2', sans-serif;
+                    margin-left: 130px;
+                    transition: 0.3s;
+                }
+
+                button:hover{
+                    background-color: rgb(208, 0, 0);
+                    color: white;
+                }
+            }
+        }
+    }
+}
